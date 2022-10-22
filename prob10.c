@@ -1,9 +1,12 @@
 #include <stdio.h> 
 
 int main(){
-    int dd,mm,yy;
-    printf("enter the date in dd/mm/yy\n");
-    scanf("%d/%d/%d",&dd,&mm,&yy);
-    printf("day=%d,month=%d,year=%d",dd,mm,yy);
+    int a,b,reslt;
+    printf("entr  a digit of 3 number and a number \n");
+    scanf("%d %d",&a,&b);
+    reslt=(a*10)+b;
+
+    printf("the number is %d",reslt);
+
     return 0;
 }

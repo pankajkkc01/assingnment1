@@ -1,9 +1,12 @@
 #include <stdio.h> 
 
 int main(){
-    float r;
-    printf("enter the radius");
-    scanf("%f",&r);
-    printf("the area of the circle is %f",3.14*r*r);
+    int a,b;
+    printf("entr the numbers\n");
+    scanf("%d %d",&a,&b);
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    printf("the swaped numbeer are %d,%d",a,b);
     return 0;
 }

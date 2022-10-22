@@ -1,9 +1,9 @@
 #include <stdio.h> 
 
 int main(){
-    int hh,mm;
-    printf("enter the time in formate hh:mm\n");
-    scanf("%d:%d",&hh,&mm);
-    printf("hour=%d,minutes=%d",hh,mm);
+    int a;
+    printf("enter the amount in INR\n");
+    scanf("%d",&a);
+    printf("the amount is USD %f",76.23*a);
     return 0;
 }
